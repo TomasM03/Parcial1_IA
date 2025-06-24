@@ -17,9 +17,8 @@ public class AIIdleState : AIState
     {
         timer += Time.deltaTime;
 
-        // Si detecta al jugador, pasa a Attack o Flee según IA
-        float detectionDistance = 10f; // Distancia de detección
-        float fieldOfViewAngle = 60f;  // Ángulo de visión
+        float detectionDistance = 10f;
+        float fieldOfViewAngle = 60f;
         if (AIDetection.PlayerInSight(ai.player, ai.transform, detectionDistance, fieldOfViewAngle))
         {
             if (ai is AI1Controller)
@@ -28,7 +27,6 @@ public class AIIdleState : AIState
                 ai.ChangeState(new AIFleeState(ai));
         }
 
-        // Si pasa el tiempo de idle, pasa a patrullar
         if (timer >= idleTime)
         {
             ai.ChangeState(new AIPatrolState(ai));

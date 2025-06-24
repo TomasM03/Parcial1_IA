@@ -24,7 +24,7 @@ public class AIDecisionTree
         float distanceToPlayer = Vector3.Distance(ai.transform.position, ai.player.position);
         float maxDistance = 15f;
 
-        float attackWeight = 1.5f; // mucho más alto de base
+        float attackWeight = 1.5f;
         if (distanceToPlayer < maxDistance * 0.6f) attackWeight += 0.3f;
 
         float fleeWeight = 0f;

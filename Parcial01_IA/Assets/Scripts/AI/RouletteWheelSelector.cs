@@ -23,7 +23,6 @@ public static class RouletteWheelSelector
             }
         }
 
-        // En caso de errores o suma de pesos 0, devolver el primer item por defecto
         return items[0].option;
     }
 }

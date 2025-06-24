@@ -67,7 +67,6 @@ public class AIController : MonoBehaviour
         {
             var newAlertMode = decisionTree.Evaluate();
 
-            // Evitar que AI2 entre en Attack
             if (this is AI2Controller && newAlertMode == AlertMode.Attack)
                 newAlertMode = AlertMode.Flee;
 
@@ -109,13 +108,10 @@ public class AIController : MonoBehaviour
             {
                 Vector3 toNeighbor = otherAI.transform.position - transform.position;
 
-                // Alineación: suma de direcciones
                 alignment += otherAI.transform.forward;
 
-                // Cohesión: suma de posiciones
                 cohesion += otherAI.transform.position;
 
-                // Separación: alejarse de los vecinos cercanos
                 separation -= toNeighbor / toNeighbor.sqrMagnitude;
 
                 neighborCount++;

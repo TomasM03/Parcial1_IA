@@ -18,7 +18,6 @@ public class AIAttackState : AIState
             return;
         }
 
-        // ?? Fatiga disminuye solo mientras ataca
         ai.fatigue = Mathf.Max(1f, ai.fatigue - 0.1f * Time.deltaTime);
 
         Vector3 targetPosition = ai.player.position;
@@ -34,14 +33,11 @@ public class AIAttackState : AIState
         float avoidDistance = 1f;
         float avoidStrength = 1f;
 
-        // Movimiento básico con avoidance
         Vector3 moveDir = AIMovementHelper.GetAvoidanceDirection(ai.transform, direction, avoidDistance, avoidStrength);
 
-        // 🔥 Agregamos flocking force
         Vector3 flockingForce = ai.CalculateFlockingForce();
         moveDir = (moveDir + flockingForce).normalized;
 
-        // Movimiento final
         ai.transform.position += ai.moveSpeed * Time.deltaTime * moveDir;
 
         if (moveDir != Vector3.zero)

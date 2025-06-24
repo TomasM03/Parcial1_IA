@@ -1,0 +1,42 @@
+using UnityEngine;
+
+public class AIIdleState : AIState
+{
+    private float idleTime = 2f;
+    private float timer = 0f;
+
+    public AIIdleState(AIController ai) : base(ai) { }
+
+    public override void Enter()
+    {
+        Debug.Log(ai.name + " entró en estado Idle.");
+        timer = 0f;
+    }
+
+    public override void Update()
+    {
+        timer += Time.deltaTime;
+
+        // Si detecta al jugador, pasa a Attack o Flee según IA
+        float detectionDistance = 10f; // Distancia de detección
+        float fieldOfViewAngle = 60f;  // Ángulo de visión
+        if (AIDetection.PlayerInSight(ai.player, ai.transform, detectionDistance, fieldOfViewAngle))
+        {
+            if (ai is AI1Controller)
+                ai.ChangeState(new AIAttackState(ai));
+            else if (ai is AI2Controller)
+                ai.ChangeState(new AIFleeState(ai));
+        }
+
+        // Si pasa el tiempo de idle, pasa a patrullar
+        if (timer >= idleTime)
+        {
+            ai.ChangeState(new AIPatrolState(ai));
+        }
+    }
+
+    public override void Exit()
+    {
+        Debug.Log(ai.name + " salió del estado Idle.");
+    }
+}

@@ -2,19 +2,27 @@ using UnityEngine;
 
 public class AIController : MonoBehaviour
 {
+    //Variables Basicas
     public float patrolSpeed = 3f;
     public float actionSpeed = 5f;
     public float moveSpeed = 3f;
     public Transform[] waypoints;
     public Transform player;
     public float fatigue = 10f;
+
+    //DecisionTree
     public float decisionCooldown = 3f;
     private float decisionTimer = 0f;
+    private AIDecisionTree decisionTree;
 
     public AlertMode alertMode = AlertMode.None;
 
     private AIState currentState;
-    private AIDecisionTree decisionTree;
+
+    public float flockingRadius = 5f;
+    public float alignmentWeight = 1.0f;
+    public float cohesionWeight = 0.5f;
+    public float separationWeight = 1.5f;
 
     public virtual AIState GetChaseState()
     {
@@ -78,6 +86,50 @@ public class AIController : MonoBehaviour
 
         currentState.Update();
     }
+    public Vector3 CalculateFlockingForce()
+    {
+        Collider[] neighbors = Physics.OverlapSphere(transform.position, flockingRadius);
+        Vector3 alignment = Vector3.zero;
+        Vector3 cohesion = Vector3.zero;
+        Vector3 separation = Vector3.zero;
+        int neighborCount = 0;
+
+        foreach (var col in neighbors)
+        {
+            if (col.gameObject == gameObject) continue;
+
+            AIController otherAI = col.GetComponent<AIController>();
+            if (otherAI != null)
+            {
+                Vector3 toNeighbor = otherAI.transform.position - transform.position;
+
+                // Alineación: suma de direcciones
+                alignment += otherAI.transform.forward;
+
+                // Cohesión: suma de posiciones
+                cohesion += otherAI.transform.position;
+
+                // Separación: alejarse de los vecinos cercanos
+                separation -= toNeighbor / toNeighbor.sqrMagnitude;
+
+                neighborCount++;
+            }
+        }
+
+        if (neighborCount < 2) return Vector3.zero;
+
+        alignment = (alignment / neighborCount).normalized;
+        cohesion = ((cohesion / neighborCount) - transform.position).normalized;
+        separation = (separation / neighborCount).normalized;
+
+        Vector3 flockingForce =
+            alignment * alignmentWeight +
+            cohesion * cohesionWeight +
+            separation * separationWeight;
+
+        return flockingForce.normalized;
+    }
+
 
     public void ChangeState(AIState newState)
     {

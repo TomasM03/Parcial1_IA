@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\juanp\\onedrive\\documentos\\github\\parcial01_ia\\parcial01_ia\\assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\juanp\\onedrive\\documentos\\github\\parcial01_ia\\parcial01_ia\\assets\\scripts\\ai\\aidecisiontree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aidecisiontree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\juanp\\onedrive\\documentos\\github\\parcial01_ia\\parcial01_ia\\assets\\scripts\\ai\\aistates\\aiattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aistates\\aiattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\juanp\\onedrive\\documentos\\github\\parcial01_ia\\parcial01_ia\\assets\\scripts\\ai\\aistates\\aipatrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aistates\\aipatrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\juanp\\onedrive\\documentos\\github\\parcial01_ia\\parcial01_ia\\assets\\scripts\\ai\\roulettewheelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\aistates\\aiattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aistates\\aiattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\aistates\\aifleestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aistates\\aifleestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\aidecisiontree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aidecisiontree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\roulettewheelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\roulettewheelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,46 +38,56 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "AIFleeState.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:21:19.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AIAttackState.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T06:03:51.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T06:03:51.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AIPatrolState.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T06:02:07.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AIController.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AIController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIController\\AIController.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AIController.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\AIController\\AIController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwEsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T05:49:26.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T05:49:26.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AiDecisionTree.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AiDecisionTree.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AiDecisionTree.cs",
@@ -81,12 +95,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AI\\AiDecisionTree.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T05:48:39.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T05:48:39.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RouletteWheelSelector.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\RouletteWheelSelector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\RouletteWheelSelector.cs",
@@ -94,8 +107,7 @@
               "RelativeToolTip": "Assets\\Scripts\\AI\\RouletteWheelSelector.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T05:48:16.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T05:48:16.547Z"
             }
           ]
         }

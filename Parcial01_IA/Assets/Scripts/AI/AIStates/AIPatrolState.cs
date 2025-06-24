@@ -1,5 +1,4 @@
-
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AIPatrolState : AIState
 {
@@ -17,9 +16,20 @@ public class AIPatrolState : AIState
             return;
         }
 
+        //Recarga Fatiga
+        ai.fatigue = Mathf.Min(10, ai.fatigue + 0.1f * Time.deltaTime);
+
         Vector3 targetWaypoint = ai.waypoints[currentWaypointIndex].position;
         Vector3 dir = (targetWaypoint - ai.transform.position).normalized;
+
+        // Obstacle avoidance
         Vector3 moveDir = AIMovementHelper.GetAvoidanceDirection(ai.transform, dir);
+
+        // 🔥 Agregar flocking force
+        Vector3 flockingForce = ai.CalculateFlockingForce();
+        moveDir = (moveDir + flockingForce).normalized;
+
+        // Movimiento final
         ai.transform.position += moveDir * ai.moveSpeed * Time.deltaTime;
 
         if (moveDir != Vector3.zero)

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class AIAttackState : AIState
@@ -34,7 +34,14 @@ public class AIAttackState : AIState
         float avoidDistance = 1f;
         float avoidStrength = 1f;
 
+        // Movimiento básico con avoidance
         Vector3 moveDir = AIMovementHelper.GetAvoidanceDirection(ai.transform, direction, avoidDistance, avoidStrength);
+
+        // 🔥 Agregamos flocking force
+        Vector3 flockingForce = ai.CalculateFlockingForce();
+        moveDir = (moveDir + flockingForce).normalized;
+
+        // Movimiento final
         ai.transform.position += ai.moveSpeed * Time.deltaTime * moveDir;
 
         if (moveDir != Vector3.zero)

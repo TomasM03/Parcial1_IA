@@ -1670,7 +1670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2274401327009999858, guid: 5ae66e3f75137dd43a2c8c1caae4c8db, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.92
+      value: -1.436
       objectReference: {fileID: 0}
     - target: {fileID: 2274401327009999858, guid: 5ae66e3f75137dd43a2c8c1caae4c8db, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1724,10 +1724,22 @@ PrefabInstance:
       propertyPath: 'waypoints.Array.data[3]'
       value: 
       objectReference: {fileID: 127033417}
+    - target: {fileID: 6101605972489894101, guid: 5ae66e3f75137dd43a2c8c1caae4c8db, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4277936243970900915, guid: 9ad131497dd2d1545b6c35e7cc732b35, type: 3}
     - target: {fileID: 8681603624113479865, guid: 5ae66e3f75137dd43a2c8c1caae4c8db, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 0401b401ac93ceb4b804f23dbf8a1e47, type: 2}
+      objectReference: {fileID: 2100000, guid: 399016a51c93e984eac130563ebe47a0, type: 2}
+    - target: {fileID: 9081136871136238875, guid: 5ae66e3f75137dd43a2c8c1caae4c8db, type: 3}
+      propertyPath: m_Height
+      value: 1.9842185
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081136871136238875, guid: 5ae66e3f75137dd43a2c8c1caae4c8db, type: 3}
+      propertyPath: m_Center.y
+      value: 0.27405006
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1744,11 +1756,23 @@ PrefabInstance:
     - target: {fileID: 250969592262902002, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 0401b401ac93ceb4b804f23dbf8a1e47, type: 2}
+      objectReference: {fileID: 2100000, guid: 7138340a0d0f5ad43999a6d29c3d7253, type: 2}
+    - target: {fileID: 1704296575218872881, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
+      propertyPath: m_Height
+      value: 1.9841218
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704296575218872881, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
+      propertyPath: m_Center.y
+      value: 0.46239305
+      objectReference: {fileID: 0}
     - target: {fileID: 2124447801571887214, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
       propertyPath: m_Name
       value: NPC1
       objectReference: {fileID: 0}
+    - target: {fileID: 3409667732436250880, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4277936243970900915, guid: 9ad131497dd2d1545b6c35e7cc732b35, type: 3}
     - target: {fileID: 6122224259495929427, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
       propertyPath: player
       value: 
@@ -1775,7 +1799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7778885903964644060, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.92
+      value: -1.55
       objectReference: {fileID: 0}
     - target: {fileID: 7778885903964644060, guid: 3624a564000e7094ab8d765d0e5d6294, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1889,7 +1913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3889007468967163435, guid: 00a7055080c92f543bf53ec28ad84119, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.92
+      value: -1.431
       objectReference: {fileID: 0}
     - target: {fileID: 3889007468967163435, guid: 00a7055080c92f543bf53ec28ad84119, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1923,6 +1947,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5124394557005447085, guid: 00a7055080c92f543bf53ec28ad84119, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4277936243970900915, guid: 9ad131497dd2d1545b6c35e7cc732b35, type: 3}
     - target: {fileID: 6835733477672231295, guid: 00a7055080c92f543bf53ec28ad84119, type: 3}
       propertyPath: player
       value: 
@@ -1942,7 +1970,15 @@ PrefabInstance:
     - target: {fileID: 8824236614970465465, guid: 00a7055080c92f543bf53ec28ad84119, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c9728b1572e3dc74faaeaa0d68df56f4, type: 2}
+      objectReference: {fileID: 2100000, guid: f75e403527e098d4bb66320833b375fe, type: 2}
+    - target: {fileID: 8859793479489465246, guid: 00a7055080c92f543bf53ec28ad84119, type: 3}
+      propertyPath: m_Height
+      value: 1.9177773
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859793479489465246, guid: 00a7055080c92f543bf53ec28ad84119, type: 3}
+      propertyPath: m_Center.y
+      value: 0.33890045
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

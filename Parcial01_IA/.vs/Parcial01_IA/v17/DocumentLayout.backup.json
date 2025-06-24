@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\",
+  "WorkspaceRootPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\tomas\\onedrive\\documentos\\github\\parcial1_ia\\parcial01_ia\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\juanp\\onedrive\\documentos\\github\\parcial01_ia\\parcial01_ia\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\tomas\\onedrive\\documentos\\github\\parcial1_ia\\parcial01_ia\\assets\\scripts\\ai\\aistates\\aipatrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aistates\\aipatrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\assets\\scripts\\ai\\aistates\\aiattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aistates\\aiattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\assets\\scripts\\ai\\aistates\\aifleestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|c:\\users\\juanp\\onedrive\\documentos\\github\\parcial01_ia\\parcial01_ia\\assets\\scripts\\ai\\aistates\\aifleestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aistates\\aifleestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\assets\\scripts\\ai\\aidecisiontree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aidecisiontree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicontroller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\assets\\scripts\\ai\\roulettewheelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\roulettewheelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\player\\playerwalkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerwalkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\aicontroller\\ai2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicontroller\\ai2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\assets\\scripts\\ai\\aicontroller\\ai1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A915C48-418F-7B53-6569-16E579D49214}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicontroller\\ai1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwAgAAAATAAAAAAAAAA==",
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T17:01:32.075Z",
+              "WhenOpened": "2025-06-24T17:56:08.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AIFleeState.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswCcAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T06:21:19.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AIAttackState.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\AIStates\\AIAttackState.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T06:03:51.652Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AIPatrolState.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\AIStates\\AIPatrolState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Title": "AIFleeState.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AIStates\\AIFleeState.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T06:02:07.347Z",
+              "WhenOpened": "2025-06-24T17:53:56.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PlayerWalkState.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\Player\\PlayerWalkState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWalkState.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\Player\\PlayerWalkState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWalkState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:47:08.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AI1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AI1Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIController\\AI1Controller.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AI1Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AIController\\AI1Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:41:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AIController.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AIController.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AIController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIController\\AIController.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AIController.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AIController.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\AIController\\AIController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHgAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAuwI0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T05:49:26.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AiDecisionTree.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AiDecisionTree.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AiDecisionTree.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AiDecisionTree.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\AiDecisionTree.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AI2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AI2Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIController\\AI2Controller.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\GitHub\\Parcial01_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\AIController\\AI2Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AIController\\AI2Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T05:48:39.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RouletteWheelSelector.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\RouletteWheelSelector.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\RouletteWheelSelector.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Documentos\\GitHub\\Parcial1_IA\\Parcial01_IA\\Assets\\Scripts\\AI\\RouletteWheelSelector.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\RouletteWheelSelector.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T05:48:16.547Z"
+              "WhenOpened": "2025-06-24T17:41:28.924Z"
             }
           ]
         }

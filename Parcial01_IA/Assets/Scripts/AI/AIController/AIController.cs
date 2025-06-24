@@ -24,6 +24,8 @@ public class AIController : MonoBehaviour
     public float cohesionWeight = 0.5f;
     public float separationWeight = 1.5f;
 
+    public delegate void OnDeathHandler(AIController ai);
+    public static event OnDeathHandler OnDeath;
     public virtual AIState GetChaseState()
     {
         return new AIAttackState(this);
@@ -64,6 +66,10 @@ public class AIController : MonoBehaviour
         if (decisionTimer <= 0f)
         {
             var newAlertMode = decisionTree.Evaluate();
+
+            // Evitar que AI2 entre en Attack
+            if (this is AI2Controller && newAlertMode == AlertMode.Attack)
+                newAlertMode = AlertMode.Flee;
 
             if (newAlertMode != alertMode)
             {
@@ -129,7 +135,11 @@ public class AIController : MonoBehaviour
 
         return flockingForce.normalized;
     }
-
+    public void Die()
+    {
+        OnDeath?.Invoke(this);
+        Destroy(gameObject);
+    }
 
     public void ChangeState(AIState newState)
     {

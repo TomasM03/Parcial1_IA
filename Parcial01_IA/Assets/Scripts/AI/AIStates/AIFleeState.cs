@@ -46,6 +46,14 @@ public class AIFleeState : AIState
         }
 
         ai.transform.position += ai.moveSpeed * Time.deltaTime * moveDir;
+        
+        if (Vector3.Distance(ai.transform.position, ai.player.position) < 2f)
+        {
+            if (ai is AI1Controller || ai is AI2Controller)
+            {
+                ai.Die();
+            }
+        }
     }
 
     public override void Exit()

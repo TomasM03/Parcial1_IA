@@ -414,6 +414,7 @@
 "Assets/Scripts/AI/AIStates/AIState.cs"
 "Assets/Scripts/AI/AlertMode.cs"
 "Assets/Scripts/AI/RouletteWheelSelector.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/PlayerIdleState.cs"
 "Assets/Scripts/Player/PlayerState.cs"
